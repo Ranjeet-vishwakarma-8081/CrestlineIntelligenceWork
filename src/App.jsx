@@ -16,7 +16,7 @@ const App = () => {
 
         {/* Card */}
         <div className="w-full max-w-sm bg-gradient-to-br from-black to-gray-900 p-6 rounded-xl shadow-lg border border-gray-700 relative">
-          {/* Gradient Circle - Bottom Right */}
+          {/* Circle - top left */}
           <div className="absolute -top-36  -left-20 size-44 bg-blue-500 rounded-full opacity-40"></div>
           <h2 className="text-2xl font-bold mb-2">Join Us!</h2>
           <p className="text-sm text-gray-300 mb-6">
@@ -73,7 +73,7 @@ const App = () => {
               Support
             </a>
           </div>
-          {/* Gradient Circle - Bottom Right */}
+          {/* Circle - Bottom Right */}
           <div className="absolute -bottom-24 -right-14 size-28 bg-blue-500 rounded-full opacity-40"></div>
         </div>
       </div>
